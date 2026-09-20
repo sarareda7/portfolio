@@ -908,6 +908,7 @@ section {
     padding: 10px 15px;
     position: relative;
     margin-bottom: -200px;
+    position: fixed;
   }
   /* اللوجو والاسم */
   .info {
