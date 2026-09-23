@@ -259,24 +259,24 @@ section {
 }
 .hero-buttons {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     margin-top: 24px;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 80px;
+    margin: 30px 30px 0 -90px ;
 }
 .btn {
-    padding: 12px 28px;
-    border-radius: 50px;
-    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 } 
 .btn-primary {
@@ -1048,20 +1048,24 @@ section {
     flex-direction: row !important; /* جنب بعض */
     justify-content: center !important;
     align-items: center !important;
-    gap: 12px !important;
+    gap: 9px !important;
     width: 100% !important;
-    margin: 30px auto 0 -50px; 
+    max-width: 100%;
+   box-sizing: border-box;
+    margin: 30px 0 0 -10px; 
   }
   
   .hero-buttons .btn {
     white-space: nowrap ; 
-    padding: 10px 16px ; 
-    font-size: 0.85rem ;
-    border-radius: 8px ;
-    display: inline-flex; 
+    padding: 10px 14px ; 
+    font-size: 0.75rem ;
+    border-radius: 10px ;
+    display: flex; 
     align-items: center;
     justify-content: center ;
     text-decoration: none ;
+    flex: 0 1 auto;
+    box-sizing: border-box;
   } 
 
 /* تنسيق قسم About للموبايل */
